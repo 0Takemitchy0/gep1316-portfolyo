@@ -24,4 +24,5 @@ Bölümü bitirince, iş bulabilirsem, tercihen kendi alanımda çalışmak isti
 ## İçerik
 
 - `merhaba.py`: Adını ve doğum yılını alıp yaşını hesaplayan, kişiye özel karşılama mesajı yazan ilk Python programım
+- `hesaplayici.py`: Mobil oyunlar için oyuncu başına yaşam boyu değeri (LTV) ve reklam harcamasının kârlılığını hesaplayan program (Ödev 3)
 - `PROMPTLAR.md`: Kullandığım YZ istemleri ve YZ beyanım
