@@ -17,10 +17,10 @@ bu_yil = datetime.date.today().year
 # Bu yıldan doğum yılını çıkararak yaşı hesaplıyoruz.
 yas = bu_yil - dogum_yili
 
-# Ad ve yaşı kullanarak kişiye özel karşılama mesajını ekrana yazdırıyoruz.
-# Baştaki f harfi, süslü parantez içindeki değişkenlerin metne yerleştirilmesini sağlar.
+# Doğum yılı ile şu anki yılı karşılaştırarak olduğumuz yıldan yüksek olup olmadığını karşılaştırıyoruz
 if dogum_yili > bu_yil:
     print("Gelecekten mi geldin? Doğum yılını kontrol et!")
 else:
+    # Ad ve yaşı kullanarak kişiye özel karşılama mesajını ekrana yazdırıyoruz.
+    # Baştaki f harfi, süslü parantez içindeki değişkenlerin metne yerleştirilmesini sağlar.
     print(f"Merhaba {ad}! Bu yıl {yas} yaşına giriyorsun. GEP1316'ya hoş geldin!")
-  
